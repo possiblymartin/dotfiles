@@ -1,4 +1,4 @@
-PROMPT="%m %F{202}:%f%F{202}:%f %F{148}%~%f %F{202}%?%f %F{53}»%f "
+PROMPT="%n %F{202}:%f%F{202}:%f %F{148}%~%f %F{202}%?%f %F{53}»%f "
 alias ls='ls'
 alias python='/usr/bin/env python3'
 alias sshweb='ssh -i ~/.ssh/google_compute_engine martinkirilov@35.234.148.115'
