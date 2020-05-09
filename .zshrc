@@ -1,30 +1,8 @@
-# Looks 
-PROMPT="%n %F{202}:%f%F{202}:%f %F{148}%~%f %F{202}%?%f %F{53}»%f "
-
-# Aliases
+PROMPT="%n %F{202}:%f%F{202}:%f %F{148}%~%f %F{53}»%f "
 alias grep='grep --color=auto'
-
-# Python 3 pleaseee
-alias python='/usr/bin/env python3'
-
-# Work
 alias sshweb='ssh -i ~/.ssh/google_compute_engine martinkirilov@35.234.148.115'
-
-# Colors
 export CLICOLOR=1
 export LSCOLORS=GxFxCxDxCxegedabagacad
 export TERM=screen-256color
-
-# For the gods
 export EDITOR='/usr/bin/vim'
-
-# Go path
-export PATH=${PATH}:/usr/local/go/bin
-export GOPATH=~
-
-# Paths
-export ANDROID_HOME=$HOME/Library/Android/sdk
-export PATH=$PATH:$ANDROID_HOME/emulator
-export PATH=$PATH:$ANDROID_HOME/tools
-export PATH=$PATH:$ANDROID_HOME/tools/bin
-export PATH=$PATH:$ANDROID_HOME/platform-tools
+export PATH="/usr/local/opt/python@3.8/bin:$PATH"
