@@ -1,0 +1,11 @@
+# never commit credentials or machine state
+.config/gcloud/
+**/credentials*
+**/access_tokens*
+**/*.boto
+**/adc.json
+*.pem
+*.key
+id_rsa*
+.env
+.DS_Store
