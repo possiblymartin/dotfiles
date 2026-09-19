@@ -1,0 +1,53 @@
+" ── appearance ──────────────────────────────────────────────
+syntax on
+set number
+set relativenumber          " hybrid: absolute on cursor line, relative elsewhere
+set cursorline
+set ruler
+set laststatus=2
+set scrolloff=6
+set sidescrolloff=8
+highlight Comment ctermfg=green
+
+" relative numbers only in normal mode (absolute while typing)
+augroup numbertoggle
+  autocmd!
+  autocmd InsertEnter,WinLeave * set norelativenumber
+  autocmd InsertLeave,WinEnter * set relativenumber
+augroup END
+
+" ── indentation ─────────────────────────────────────────────
+filetype plugin indent on
+set tabstop=2
+set shiftwidth=2
+set expandtab
+set ai
+set smartindent
+
+" ── completion (built-in, no plugins) ───────────────────────
+set omnifunc=syntaxcomplete#Complete
+set completeopt=menuone,noinsert,noselect,popup
+set complete=.,w,b,u,t,i
+set pumheight=12
+set shortmess+=c
+inoremap <expr> <Tab>   pumvisible() ? "\<C-n>" : "\<Tab>"
+inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
+
+" ── search ──────────────────────────────────────────────────
+set hlsearch
+set incsearch
+set ignorecase
+set smartcase
+
+" ── usability ───────────────────────────────────────────────
+set hidden
+set backspace=indent,eol,start
+set mouse=a
+set clipboard=unnamed
+set splitbelow
+set splitright
+set wildmenu
+set wildmode=longest:full,full
+set updatetime=300
+set undofile
+set undodir=~/.cache/vim/undo

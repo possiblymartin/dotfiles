@@ -1,0 +1,137 @@
+tap "anomalyco/tap"
+tap "facebook/fb"
+tap "ngrok/ngrok"
+# Modern, simple TCP tunnel in Rust that exposes local ports to a remote server
+brew "bore-cli"
+# Tool for emulating mouse and keyboard events
+brew "cliclick"
+# Cloudflare Tunnel client (formerly Argo Tunnel)
+brew "cloudflared"
+# Dependency manager for Cocoa projects
+brew "cocoapods"
+# Pack, ship and run any application as a lightweight container
+brew "docker"
+# Isolated development environments using Docker
+brew "docker-compose"
+# Simple, fast and user-friendly alternative to find
+brew "fd"
+# Play, record, convert, and stream select audio and video codecs
+brew "ffmpeg"
+# GitHub command-line tool
+brew "gh"
+# Quickly rewrite git repository history
+brew "git-filter-repo"
+# Git extension for versioning large files
+brew "git-lfs"
+# DWG utilities
+brew "libredwg"
+# Ambitious Vim-fork focused on extensibility and agility
+brew "neovim"
+# Open-source, cross-platform JavaScript runtime environment
+brew "node"
+# Development kit for the Java programming language
+brew "openjdk"
+# PNG image optimizing utility
+brew "pngquant"
+# PDF rendering library (based on the xpdf-3.0 code base)
+brew "poppler"
+# Object-relational database system
+brew "postgresql@16"
+# Object-relational database system
+brew "postgresql@17"
+# Object-relational database system
+brew "postgresql@18"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.11"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.12"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.13", link: false
+# Persistent key-value database, with built-in net interface
+brew "redis", restart_service: :changed
+# Search tool like grep and The Silver Searcher
+brew "ripgrep"
+# Command-line tool for Stripe
+brew "stripe-cli"
+# OCR (Optical Character Recognition) engine
+brew "tesseract"
+# Terminal multiplexer
+brew "tmux"
+# Vi 'workalike' with many additional features
+brew "vim"
+# Watch files and take action when they change
+brew "watchman"
+# Internet file retriever
+brew "wget"
+# Library to create, extract, and modify Windows Imaging files
+brew "wimlib"
+# Generate your Xcode project from a spec file and your folder structure
+brew "xcodegen"
+# The AI coding agent built for the terminal.
+brew "anomalyco/tap/opencode", trusted: true
+# Companion server for automating iOS Simulators
+brew "facebook/fb/idb-companion", trusted: true
+# Password manager that keeps all passwords secure behind one password
+cask "1password"
+# Command-line interface for 1Password
+cask "1password-cli"
+# Web browser focusing on privacy
+cask "brave-browser"
+# OpenAI's official ChatGPT desktop app
+cask "chatgpt"
+# Anthropic's official Claude AI desktop app
+cask "claude"
+# Voice and text chat software
+cask "discord"
+# App to build and share containerised applications and microservices
+cask "docker-desktop"
+# Web browser
+cask "firefox"
+# Screen colour temperature controller
+cask "flux-app"
+cask "font-jetbrains-mono-nerd-font"
+# Set of tools to manage resources and applications hosted on Google Cloud
+cask "gcloud-cli"
+# Web browser
+cask "google-chrome"
+# Open Source Multimedia Framework
+cask "gstreamer-runtime"
+# GPU-based terminal emulator
+cask "kitty"
+# Controls and monitors all fans on Apple computers
+cask "macs-fan-control"
+cask "ngrok"
+# VPN client for secure internet access and private browsing
+cask "nordvpn"
+# Open-source software for live streaming and screen recording
+cask "obs"
+# Move and resize windows using keyboard shortcuts or snap areas
+cask "rectangle"
+# Tool to reverse the direction of scrolling
+cask "scroll-reverser"
+# Utilise mouse side navigation buttons
+cask "sensiblesidebuttons"
+# Music streaming service
+cask "spotify"
+# Open-source code editor
+cask "visual-studio-code"
+# Compatibility layer to run Windows applications
+cask "wine-stable"
+vscode "bierner.github-markdown-preview"
+vscode "bierner.markdown-emoji"
+vscode "bierner.markdown-footnotes"
+vscode "bierner.markdown-mermaid"
+vscode "bierner.markdown-preview-github-styles"
+vscode "bierner.markdown-yaml-preamble"
+vscode "bradlc.vscode-tailwindcss"
+vscode "ms-python.debugpy"
+vscode "ms-python.python"
+vscode "ms-python.vscode-pylance"
+vscode "ms-python.vscode-python-envs"
+vscode "ms-vscode-remote.remote-ssh"
+vscode "ms-vscode-remote.remote-ssh-edit"
+vscode "ms-vscode.remote-explorer"
+vscode "ms-vscode.remote-server"
+vscode "vscodevim.vim"
+npm "corepack"
+npm "mint"
